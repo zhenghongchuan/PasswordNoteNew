@@ -12,6 +12,7 @@
 		A06276A61F0955E3003D0580 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06276A41F0955E3003D0580 /* Main.storyboard */; };
 		A06276A81F0955E3003D0580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06276A71F0955E3003D0580 /* Assets.xcassets */; };
 		A06276AB1F0955E3003D0580 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06276A91F0955E3003D0580 /* LaunchScreen.storyboard */; };
+		A0D5FA9E1F1E6EA000734C7A /* AllCardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D5FA9D1F1E6EA000734C7A /* AllCardTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A06276A71F0955E3003D0580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A06276AA1F0955E3003D0580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A06276AC1F0955E3003D0580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0D5FA9D1F1E6EA000734C7A /* AllCardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCardTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				A06276A01F0955E3003D0580 /* AppDelegate.swift */,
 				A06276A21F0955E3003D0580 /* ViewController.swift */,
+				A0D5FA9D1F1E6EA000734C7A /* AllCardTableViewController.swift */,
 				A06276A41F0955E3003D0580 /* Main.storyboard */,
 				A06276A71F0955E3003D0580 /* Assets.xcassets */,
 				A06276A91F0955E3003D0580 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D5FA9E1F1E6EA000734C7A /* AllCardTableViewController.swift in Sources */,
 				A06276A31F0955E3003D0580 /* ViewController.swift in Sources */,
 				A06276A11F0955E3003D0580 /* AppDelegate.swift in Sources */,
 			);
@@ -304,6 +308,7 @@
 				A06276B11F0955E3003D0580 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
