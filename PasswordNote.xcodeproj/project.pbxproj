@@ -7,23 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A022EC7E1F2E5F6F00AB0B93 /* UIViewShakeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A022EC7D1F2E5F6F00AB0B93 /* UIViewShakeExtension.swift */; };
+		A02A21E91F22658E004FA954 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02A21E81F22658E004FA954 /* MainViewController.swift */; };
+		A02A21EB1F227025004FA954 /* Asstes.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02A21EA1F227025004FA954 /* Asstes.xcassets */; };
+		A02CCBBE1F322AEB002FB4D3 /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02CCBBD1F322AEB002FB4D3 /* NoteDetailViewController.swift */; };
+		A02EF8671F1FB41800A8303C /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02EF8661F1FB41800A8303C /* RootViewController.swift */; };
+		A02EF8691F1FBB5100A8303C /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02EF8681F1FBB5100A8303C /* MainTableViewCell.swift */; };
+		A0376B7F1F211E16001C1B1F /* CreateNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0376B7E1F211E16001C1B1F /* CreateNoteViewController.swift */; };
+		A0376B811F21235D001C1B1F /* UIViewShadowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0376B801F21235D001C1B1F /* UIViewShadowExtension.swift */; };
+		A03A29CA1F28FBBF000C5EB2 /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03A29C91F28FBBF000C5EB2 /* NoteModel.swift */; };
 		A06276A11F0955E3003D0580 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06276A01F0955E3003D0580 /* AppDelegate.swift */; };
 		A06276A31F0955E3003D0580 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06276A21F0955E3003D0580 /* ViewController.swift */; };
 		A06276A61F0955E3003D0580 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06276A41F0955E3003D0580 /* Main.storyboard */; };
-		A06276A81F0955E3003D0580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06276A71F0955E3003D0580 /* Assets.xcassets */; };
 		A06276AB1F0955E3003D0580 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06276A91F0955E3003D0580 /* LaunchScreen.storyboard */; };
-		A0D5FA9E1F1E6EA000734C7A /* AllCardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D5FA9D1F1E6EA000734C7A /* AllCardTableViewController.swift */; };
+		C14C079E039B02FFF7CE7843 /* Pods_PasswordNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043D790D6530D4EE370B8370 /* Pods_PasswordNote.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043D790D6530D4EE370B8370 /* Pods_PasswordNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		145806CEDBB9A9720C66664E /* Pods-PasswordNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordNote.release.xcconfig"; path = "Pods/Target Support Files/Pods-PasswordNote/Pods-PasswordNote.release.xcconfig"; sourceTree = "<group>"; };
+		A022EC7D1F2E5F6F00AB0B93 /* UIViewShakeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewShakeExtension.swift; sourceTree = "<group>"; };
+		A02A21E81F22658E004FA954 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A02A21EA1F227025004FA954 /* Asstes.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asstes.xcassets; sourceTree = "<group>"; };
+		A02CCBBD1F322AEB002FB4D3 /* NoteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
+		A02EF85F1F1FAD4A00A8303C /* UIViewLayerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewLayerExtension.swift; sourceTree = "<group>"; };
+		A02EF8661F1FB41800A8303C /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		A02EF8681F1FBB5100A8303C /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		A0376B7E1F211E16001C1B1F /* CreateNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteViewController.swift; sourceTree = "<group>"; };
+		A0376B801F21235D001C1B1F /* UIViewShadowExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewShadowExtension.swift; sourceTree = "<group>"; };
+		A03A29C91F28FBBF000C5EB2 /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
 		A062769D1F0955E3003D0580 /* PasswordNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06276A01F0955E3003D0580 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A06276A21F0955E3003D0580 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A06276A51F0955E3003D0580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A06276A71F0955E3003D0580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A06276AA1F0955E3003D0580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A06276AC1F0955E3003D0580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0D5FA9D1F1E6EA000734C7A /* AllCardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCardTableViewController.swift; sourceTree = "<group>"; };
+		C0D6F2269202AF4924B544C3 /* Pods-PasswordNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordNote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PasswordNote/Pods-PasswordNote.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +50,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14C079E039B02FFF7CE7843 /* Pods_PasswordNote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A02EF8601F1FAD4E00A8303C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A02EF8621F1FAE3000A8303C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A02EF8681F1FBB5100A8303C /* MainTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A032D02E1F1FAA3100723D1D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A02A21E81F22658E004FA954 /* MainViewController.swift */,
+				A0376B7E1F211E16001C1B1F /* CreateNoteViewController.swift */,
+				A02CCBBD1F322AEB002FB4D3 /* NoteDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A032D02F1F1FAA3100723D1D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A02EF85F1F1FAD4A00A8303C /* UIViewLayerExtension.swift */,
+				A0376B801F21235D001C1B1F /* UIViewShadowExtension.swift */,
+				A022EC7D1F2E5F6F00AB0B93 /* UIViewShakeExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A032D0301F1FAA3100723D1D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A03A29C91F28FBBF000C5EB2 /* NoteModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A040F5885E0456986262CE93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				043D790D6530D4EE370B8370 /* Pods_PasswordNote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A06276941F0955E3003D0580 = {
 			isa = PBXGroup;
 			children = (
 				A062769F1F0955E3003D0580 /* PasswordNote */,
 				A062769E1F0955E3003D0580 /* Products */,
+				D3E3593C28107884742E9A2D /* Pods */,
+				A040F5885E0456986262CE93 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +129,29 @@
 		A062769F1F0955E3003D0580 /* PasswordNote */ = {
 			isa = PBXGroup;
 			children = (
+				A032D02F1F1FAA3100723D1D /* Extension */,
+				A032D0301F1FAA3100723D1D /* Models */,
+				A032D02E1F1FAA3100723D1D /* ViewControllers */,
+				A02EF8621F1FAE3000A8303C /* Views */,
+				A02EF8601F1FAD4E00A8303C /* Sources */,
 				A06276A01F0955E3003D0580 /* AppDelegate.swift */,
+				A02EF8661F1FB41800A8303C /* RootViewController.swift */,
 				A06276A21F0955E3003D0580 /* ViewController.swift */,
-				A0D5FA9D1F1E6EA000734C7A /* AllCardTableViewController.swift */,
 				A06276A41F0955E3003D0580 /* Main.storyboard */,
-				A06276A71F0955E3003D0580 /* Assets.xcassets */,
+				A02A21EA1F227025004FA954 /* Asstes.xcassets */,
 				A06276A91F0955E3003D0580 /* LaunchScreen.storyboard */,
 				A06276AC1F0955E3003D0580 /* Info.plist */,
 			);
 			path = PasswordNote;
+			sourceTree = "<group>";
+		};
+		D3E3593C28107884742E9A2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0D6F2269202AF4924B544C3 /* Pods-PasswordNote.debug.xcconfig */,
+				145806CEDBB9A9720C66664E /* Pods-PasswordNote.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A06276AF1F0955E3003D0580 /* Build configuration list for PBXNativeTarget "PasswordNote" */;
 			buildPhases = (
+				18A55D86AE4F6D2B249121E8 /* [CP] Check Pods Manifest.lock */,
 				A06276991F0955E3003D0580 /* Sources */,
 				A062769A1F0955E3003D0580 /* Frameworks */,
 				A062769B1F0955E3003D0580 /* Resources */,
+				6E8B3D55D235D41B66672BE3 /* [CP] Embed Pods Frameworks */,
+				7776A28240E68AC490680D62 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,22 +217,93 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A02A21EB1F227025004FA954 /* Asstes.xcassets in Resources */,
 				A06276AB1F0955E3003D0580 /* LaunchScreen.storyboard in Resources */,
-				A06276A81F0955E3003D0580 /* Assets.xcassets in Resources */,
 				A06276A61F0955E3003D0580 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18A55D86AE4F6D2B249121E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PasswordNote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E8B3D55D235D41B66672BE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PasswordNote/Pods-PasswordNote-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PasswordNote/Pods-PasswordNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7776A28240E68AC490680D62 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PasswordNote/Pods-PasswordNote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A06276991F0955E3003D0580 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0D5FA9E1F1E6EA000734C7A /* AllCardTableViewController.swift in Sources */,
+				A02EF8671F1FB41800A8303C /* RootViewController.swift in Sources */,
+				A03A29CA1F28FBBF000C5EB2 /* NoteModel.swift in Sources */,
 				A06276A31F0955E3003D0580 /* ViewController.swift in Sources */,
+				A0376B811F21235D001C1B1F /* UIViewShadowExtension.swift in Sources */,
 				A06276A11F0955E3003D0580 /* AppDelegate.swift in Sources */,
+				A022EC7E1F2E5F6F00AB0B93 /* UIViewShakeExtension.swift in Sources */,
+				A0376B7F1F211E16001C1B1F /* CreateNoteViewController.swift in Sources */,
+				A02CCBBE1F322AEB002FB4D3 /* NoteDetailViewController.swift in Sources */,
+				A02EF8691F1FBB5100A8303C /* MainTableViewCell.swift in Sources */,
+				A02A21E91F22658E004FA954 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,26 +426,34 @@
 		};
 		A06276B01F0955E3003D0580 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D6F2269202AF4924B544C3 /* Pods-PasswordNote.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5DB28TBQU6;
 				INFOPLIST_FILE = PasswordNote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZHC.PasswordNote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		A06276B11F0955E3003D0580 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 145806CEDBB9A9720C66664E /* Pods-PasswordNote.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5DB28TBQU6;
 				INFOPLIST_FILE = PasswordNote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZHC.PasswordNote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
