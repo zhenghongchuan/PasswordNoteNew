@@ -7,6 +7,7 @@ pod 'PopupDialog'
 pod 'SnapKit', '~> 3.2.0'
 pod 'RealmSwift'
 pod 'PKHUD'
+pod 'SwiftLint', '~> 0.24.0'
 
 end
 
