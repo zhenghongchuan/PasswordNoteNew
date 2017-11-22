@@ -167,6 +167,7 @@
 				A062769B1F0955E3003D0580 /* Resources */,
 				6E8B3D55D235D41B66672BE3 /* [CP] Embed Pods Frameworks */,
 				7776A28240E68AC490680D62 /* [CP] Copy Pods Resources */,
+				906EF2861FBFDB6000BA4BFA /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -286,6 +287,20 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PasswordNote/Pods-PasswordNote-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		906EF2861FBFDB6000BA4BFA /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint";
 		};
 /* End PBXShellScriptBuildPhase section */
 
