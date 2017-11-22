@@ -14,8 +14,8 @@
 		"commitmsg": "commitlint -e $GIT_PARAMS",
 		"ios": "react-native ios",
 		"android": "react-native android"
-	  },
-	  "dependencies": {
+	},
+	"dependencies": {
 		"@reactivex/rxjs": "^5.4.3",
 		"@types/enzyme": "^3.1.1",
 		"@types/invariant": "^2.2.29",
@@ -52,10 +52,11 @@
 		"redux-persist": "^4.10.1",
 		"reselect": "^3.0.1",
 		"rxjs": "^5.4.3",
+		"styled-components": "^2.2.3",
 		"url-parse": "^1.1.9",
 		"uuid": "^3.0.1"
-	  },
-	  "devDependencies": {
+	},
+	"devDependencies": {
 		"@commitlint/cli": "^5.0.1",
 		"@commitlint/config-angular": "^5.0.1",
 		"@types/jest": "^21.1.1",
