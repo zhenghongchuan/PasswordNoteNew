@@ -72,7 +72,7 @@
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
-"@reactivex/rxjs@^5.4.3":
+"@reactivex/rxjs@^5.5.2":
   version "5.5.2"
   resolved "http://registry.npm.taobao.org/@reactivex/rxjs/download/@reactivex/rxjs-5.5.2.tgz#7772a5f027ed3043df8a668131b498531e08077c"
   dependencies:
@@ -82,7 +82,7 @@
   version "0.22.5"
   resolved "http://registry.npm.taobao.org/@types/cheerio/download/@types/cheerio-0.22.5.tgz#db749e8470d98f103d51407db9bee5a8b9d20d45"
 
-"@types/enzyme@^3.1.1":
+"@types/enzyme@^3.1.5":
   version "3.1.5"
   resolved "http://registry.npm.taobao.org/@types/enzyme/download/@types/enzyme-3.1.5.tgz#6cc31d7f7e552209e244a45d89279f4def4aaade"
   dependencies:
@@ -105,7 +105,7 @@
   version "8.0.53"
   resolved "http://registry.npm.taobao.org/@types/node/download/@types/node-8.0.53.tgz#396b35af826fa66aad472c8cb7b8d5e277f4e6d8"
 
-"@types/query-string@^5.0.0":
+"@types/query-string@^5.0.1":
   version "5.0.1"
   resolved "http://registry.npm.taobao.org/@types/query-string/download/@types/query-string-5.0.1.tgz#6cb41c724cb1644d56c2d1dae7c7b204e706b39e"
 
@@ -117,31 +117,31 @@
   version "3.0.0"
   resolved "http://registry.npm.taobao.org/@types/react-native-touch-id/download/@types/react-native-touch-id-3.0.0.tgz#166bc0a6496ef618adcf89e67bbafc294c25e90d"
 
-"@types/react-native@*", "@types/react-native@^0.50.0":
+"@types/react-native@*", "@types/react-native@^0.50.7":
   version "0.50.7"
   resolved "http://registry.npm.taobao.org/@types/react-native/download/@types/react-native-0.50.7.tgz#4c18bb14aa08f11934f539d2b8dcb2f1a6b88bd8"
   dependencies:
     "@types/react" "*"
 
-"@types/react-navigation@^1.0.20":
+"@types/react-navigation@^1.0.23":
   version "1.0.23"
   resolved "http://registry.npm.taobao.org/@types/react-navigation/download/@types/react-navigation-1.0.23.tgz#338e04c0f7381176899a379efbd651ddda8a2e97"
   dependencies:
     "@types/react" "*"
     "@types/react-native" "*"
 
-"@types/react-redux@^5.0.7":
+"@types/react-redux@^5.0.13":
   version "5.0.13"
   resolved "http://registry.npm.taobao.org/@types/react-redux/download/@types/react-redux-5.0.13.tgz#dcc67764b7455ed54422a0302fedf47e32db3579"
   dependencies:
     "@types/react" "*"
     redux "^3.6.0"
 
-"@types/react@*", "@types/react@^16.0.18":
+"@types/react@*", "@types/react@^16.0.25":
   version "16.0.25"
   resolved "http://registry.npm.taobao.org/@types/react/download/@types/react-16.0.25.tgz#bf696b83fe480c5e0eff4335ee39ebc95884a1ed"
 
-"@types/recompose@^0.24.1":
+"@types/recompose@^0.24.3":
   version "0.24.3"
   resolved "http://registry.npm.taobao.org/@types/recompose/download/@types/recompose-0.24.3.tgz#c2c1063bcea9d670052b886f47b5ce42faba0cf2"
   dependencies:
@@ -152,6 +152,12 @@
   resolved "http://registry.npm.taobao.org/@types/redux-mock-store/download/@types/redux-mock-store-0.0.12.tgz#0c1b298e62aa5da273bcd347c73ebe629e9a1523"
   dependencies:
     redux "^3.6.0"
+
+"@types/redux-persist@^4.3.1":
+  version "4.3.1"
+  resolved "http://registry.npm.taobao.org/@types/redux-persist/download/@types/redux-persist-4.3.1.tgz#aa4c876859e0bea5155e5f7980e5b8c4699dc2e6"
+  dependencies:
+    redux-persist "*"
 
 "@types/uuid@^3.4.3":
   version "3.4.3"
@@ -1898,7 +1904,7 @@ enzyme-adapter-utils@^1.1.0:
     object.assign "^4.0.4"
     prop-types "^15.5.10"
 
-enzyme@^3.0.0:
+enzyme@^3.2.0:
   version "3.2.0"
   resolved "http://registry.npm.taobao.org/enzyme/download/enzyme-3.2.0.tgz#998bdcda0fc71b8764a0017f7cc692c943f54a7a"
   dependencies:
@@ -4224,7 +4230,7 @@ react-intl@^2.4.0:
     intl-relativeformat "^2.0.0"
     invariant "^2.1.1"
 
-react-native-device-info@^0.12.0:
+react-native-device-info@^0.12.1:
   version "0.12.1"
   resolved "http://registry.npm.taobao.org/react-native-device-info/download/react-native-device-info-0.12.1.tgz#659ed145caa5a86a4815904381b25e9ebe0c24f6"
 
@@ -4260,11 +4266,11 @@ react-native-tab-view@^0.0.70:
   dependencies:
     prop-types "^15.5.10"
 
-react-native-touch-id@^3.0.0:
+react-native-touch-id@^3.1.0:
   version "3.1.0"
   resolved "http://registry.npm.taobao.org/react-native-touch-id/download/react-native-touch-id-3.1.0.tgz#5e1ea668a5dfe9218a7a49bfb1feb3f9bd77965f"
 
-react-native@^0.50.1:
+react-native@^0.50.3:
   version "0.50.3"
   resolved "http://registry.npm.taobao.org/react-native/download/react-native-0.50.3.tgz#91282bd5356cc7d794969cdc443cc764389b9af4"
   dependencies:
@@ -4321,7 +4327,7 @@ react-native@^0.50.1:
     xmldoc "^0.4.0"
     yargs "^9.0.0"
 
-react-navigation@^1.0.0-beta.15:
+react-navigation@^1.0.0-beta.21:
   version "1.0.0-beta.21"
   resolved "http://registry.npm.taobao.org/react-navigation/download/react-navigation-1.0.0-beta.21.tgz#086c504ba84c966ef8db898baef6fa14ff45a06f"
   dependencies:
@@ -4376,7 +4382,7 @@ react-transform-hmr@^1.0.4:
     global "^4.3.0"
     react-proxy "^1.1.7"
 
-react@^16.1.0:
+react@^16.1.1:
   version "16.1.1"
   resolved "http://registry.npm.taobao.org/react/download/react-16.1.1.tgz#d5c4ef795507e3012282dd51261ff9c0e824fe1f"
   dependencies:
@@ -4473,7 +4479,11 @@ redux-observable@^0.17.0:
   version "0.17.0"
   resolved "http://registry.npm.taobao.org/redux-observable/download/redux-observable-0.17.0.tgz#23e29e3f3c39204b7ed6a14b67a29e317c03106b"
 
-redux-persist@^4.10.1:
+redux-persist@*:
+  version "5.4.0"
+  resolved "http://registry.npm.taobao.org/redux-persist/download/redux-persist-5.4.0.tgz#a1062313546a9d4ca6f9271464d18f736e8ca394"
+
+redux-persist@^4.3.1:
   version "4.10.2"
   resolved "http://registry.npm.taobao.org/redux-persist/download/redux-persist-4.10.2.tgz#8efdb16cfe882c521a78a6d0bfdfef2437f49f96"
   dependencies:
@@ -4726,7 +4736,7 @@ rx-lite@*, rx-lite@^4.0.8:
   version "4.0.8"
   resolved "http://registry.npm.taobao.org/rx-lite/download/rx-lite-4.0.8.tgz#0b1e11af8bc44836f04a6407e92da42467b79444"
 
-rxjs@^5.4.3:
+rxjs@^5.5.2:
   version "5.5.2"
   resolved "http://registry.npm.taobao.org/rxjs/download/rxjs-5.5.2.tgz#28d403f0071121967f18ad665563255d54236ac3"
   dependencies:
@@ -5309,7 +5319,7 @@ unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/unpipe/download/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
 
-url-parse@^1.1.9:
+url-parse@^1.2.0:
   version "1.2.0"
   resolved "http://registry.npm.taobao.org/url-parse/download/url-parse-1.2.0.tgz#3a19e8aaa6d023ddd27dcc44cb4fc8f7fec23986"
   dependencies:
@@ -5328,7 +5338,7 @@ uuid@3.0.1:
   version "3.0.1"
   resolved "http://registry.npm.taobao.org/uuid/download/uuid-3.0.1.tgz#6544bba2dfda8c1cf17e629a3a305e2bb1fee6c1"
 
-uuid@^3.0.0, uuid@^3.0.1, uuid@^3.1.0:
+uuid@^3.0.0, uuid@^3.1.0:
   version "3.1.0"
   resolved "http://registry.npm.taobao.org/uuid/download/uuid-3.1.0.tgz#3dd3d3e790abc24d7b0d3a034ffababe28ebbc04"
 
