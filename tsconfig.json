@@ -1,0 +1,53 @@
+{
+    "compilerOptions": {
+      "allowUnusedLabels": false,
+      "allowUnreachableCode": false,
+      "experimentalDecorators": true,
+      "module": "es2015",
+      "target": "es2015",
+      "lib": [
+        "es6"
+      ],
+      "strict": true,
+      "jsx": "react-native",
+      "outDir": "build",
+      "rootDir": "src",
+      "sourceMap": true,
+      "allowJs": true,
+      "moduleResolution": "node",
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "alwaysStrict": true,
+      "noUnusedParameters": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "noUnusedLocals": true,
+      "allowSyntheticDefaultImports": true,
+      "strictFunctionTypes": false,
+      "baseUrl": "",
+      "typeRoots": [
+        "node_modules/@types",
+        "./src/typings"
+      ],
+      "skipLibCheck": true
+    },
+    "exclude": [
+      "env.js",
+      "index.android.js",
+      "index.ios.js",
+      "index.js",
+      "build",
+      "node_modules",
+      "config",
+      "scripts",
+      "jest",
+      "coverage",
+      "commitlint.config.js",
+      "tools",
+      "ios"
+    ],
+    "compileOnSave": true
+  }
+  
