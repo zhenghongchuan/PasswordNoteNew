@@ -1,0 +1,3 @@
+rootProject.name = 'PasswordNoteNew'
+
+include ':app'
