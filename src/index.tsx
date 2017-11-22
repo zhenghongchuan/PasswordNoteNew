@@ -1,5 +1,4 @@
 import React from 'react'
-import { ImageBackground, StyleSheet } from 'react-native'
 import { Provider } from 'react-redux'
 import { Store } from 'redux'
 import Pages from './pages/Router'
@@ -13,13 +12,6 @@ interface IOwnState {
 
 interface IOwnProps {
 }
-
-const styles = StyleSheet.create({
-  background: {
-    alignItems: 'center',
-    flex: 1,
-  },
-})
 
 class App extends React.Component<IOwnProps, IOwnState> {
 
@@ -35,15 +27,10 @@ class App extends React.Component<IOwnProps, IOwnState> {
   }
 
   render() {
-    return this.state.rehydrated ? (
+    return (
       <Provider store={store}>
           <Pages />
       </Provider>
-    ) : (
-        <ImageBackground
-          style={styles.background}
-          source={{ uri: 'SPLASH' }}
-        />
     )
   }
 }
