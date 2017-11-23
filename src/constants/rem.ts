@@ -4,4 +4,4 @@ export const SCREEN_WIDTH = Dimensions.get('window').width
 
 const ratio = SCREEN_WIDTH / 414
 
-export const px2rem = (px: number, unit: number = ratio) => px / unit
+export const getPx = (px: number, unit: number = ratio) => px / unit
