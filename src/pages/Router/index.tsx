@@ -21,7 +21,7 @@ type IProps = IStateProps & IOwnProps
 export const Navigator = StackNavigator(
   pages,
   {
-    initialRouteName: 'Test',
+    initialRouteName: 'PasswordList',
   },
 )
 

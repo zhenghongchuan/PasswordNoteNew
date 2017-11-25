@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import {
   Platform,
   StyleSheet,
@@ -13,7 +13,7 @@ const instructions = Platform.select({
     'Shake or press menu button for dev menu',
 })
 
-export default class Test extends Component<{}> {
+export default class Test extends React.Component<{}> {
   render() {
     return (
       <View style={styles.container}>
